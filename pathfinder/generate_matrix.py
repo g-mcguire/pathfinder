@@ -1,6 +1,4 @@
 import random
-X = 10
-Y = X
 
 def generate_matrix(size):
     matrix = [[random.choice([0, 1]) for _ in range(size)] for _ in range(size)]
